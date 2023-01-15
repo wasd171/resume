@@ -1,0 +1,135 @@
+%!TEX TS-program = xelatex
+%!TEX encoding = UTF-8 Unicode
+% Awesome CV LaTeX Template for Cover Letter
+%
+% This template has been downloaded from:
+% https://github.com/posquit0/Awesome-CV
+%
+% Authors:
+% Claud D. Park <posquit0.bj@gmail.com>
+% Lars Richter <mail@ayeks.de>
+%
+% Template license:
+% CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/)
+%
+
+
+%-------------------------------------------------------------------------------
+% CONFIGURATIONS
+%-------------------------------------------------------------------------------
+% A4 paper size by default, use 'letterpaper' for US letter
+\documentclass[11pt, a4paper]{awesome-cv}
+
+% Configure page margins with geometry
+\geometry{left=1.4cm, top=.8cm, right=1.4cm, bottom=1.8cm, footskip=.5cm}
+
+% Specify the location of the included fonts
+\fontdir[fonts/]
+
+% Color for highlights
+% Awesome Colors: awesome-emerald, awesome-skyblue, awesome-red, awesome-pink, awesome-orange
+%                 awesome-nephritis, awesome-concrete, awesome-darknight
+\colorlet{awesome}{awesome-red}
+% Uncomment if you would like to specify your own color
+% \definecolor{awesome}{HTML}{CA63A8}
+
+% Colors for text
+% Uncomment if you would like to specify your own color
+% \definecolor{darktext}{HTML}{414141}
+% \definecolor{text}{HTML}{333333}
+% \definecolor{graytext}{HTML}{5D5D5D}
+% \definecolor{lighttext}{HTML}{999999}
+
+% Set false if you don't want to highlight section with awesome color
+\setbool{acvSectionColorHighlight}{true}
+
+% If you would like to change the social information separator from a pipe (|) to something else
+\renewcommand{\acvHeaderSocialSep}{\quad\textbar\quad}
+
+
+%-------------------------------------------------------------------------------
+%	PERSONAL INFORMATION
+%	Comment any of the lines below if they are not required
+%-------------------------------------------------------------------------------
+% Available options: circle|rectangle,edge/noedge,left/right
+%\photo[circle,noedge,left]{./examples/profile}
+\name{Oksana}{Nesterova}
+\position{Senior Media Planner}
+\address{Dorfstrasse 21, 6390 Engelberg, Switzerland}
+
+%\mobile{+41 78 204 00 51}
+\email{oksana@nesterova.is}
+%\homepage{www.posquit0.com}
+%\github{posquit0}
+\linkedin{oksananesterova}
+% \gitlab{gitlab-id}
+% \stackoverflow{SO-id}{SO-name}
+% \twitter{@twit}
+% \skype{skype-id}
+% \reddit{reddit-id}
+ \extrainfo{Swiss B permit}
+
+%\quote{``Be the change that you want to see in the world."}
+
+
+%-------------------------------------------------------------------------------
+%	LETTER INFORMATION
+%	All of the below lines must be filled out
+%-------------------------------------------------------------------------------
+% The company being applied to
+\recipient
+  {The Swatch Group Recruiting Team}
+  {The Swatch Group\\Seevorstadt 6\\2501 Biel / Bienne\\Switzerland}
+% The date on the letter, default is the date of compilation
+\letterdate{\today}
+% The title of the letter
+\lettertitle{Application for the position of a Team Leader Advertising at Swatch}
+% How the letter is opened
+\letteropening{To Whom It May Concern,}
+% How the letter is closed
+\letterclosing{Best regards,}
+% Any enclosures with the letter
+\letterenclosure[Attached]{Curriculum Vitae}
+
+
+%-------------------------------------------------------------------------------
+\begin{document}
+
+% Print the header with above personal informations
+% Give optional argument to change alignment(C: center, L: left, R: right)
+\makecvheader[R]
+
+% Print the footer with 3 arguments(<left>, <center>, <right>)
+% Leave any of these blank if they are not needed
+\makecvfooter
+  {\today}
+  {Oksana Nesterova~~~·~~~Cover Letter}
+  {}
+
+% Print the title with above letter informations
+\makelettertitle
+
+%-------------------------------------------------------------------------------
+%	LETTER CONTENT
+%-------------------------------------------------------------------------------
+\begin{cvletter}
+
+\lettersection{Why am I applying for?}
+It is a great pleasure to apply for the position of a Team Leader Advertising at Swatch. When I came across this position on LinkedIn I immediately recognised that I fit the job perfectly --- I hope that the Head of Communications will find my experience interesting. As a Senior Media Planner with over 4 years of professional experience in 360-degree media approach, I am confident that I would be a valuable asset to the Marketing team. 
+
+P.S. I see that one of the professional requirements is 5-7 years of experience, my experience is a bit less than that. However in the advertising world it is said that «1 year counts for 2 years», especially when working in the largest global marketing and advertising agencies and with the largest international clients.
+
+\lettersection{What is my experience?}
+I worked only with the largest advertisers on the Russian market. Being a Junior Digital Planner I led Online Video planning for all chocolate brands of Mars with monthly budgets of about 400K USD, on the next positions I handled only the biggest ad campaigns with budgets of about 3M USD each. Thanks to good relations with partners there was a possibility to create unique projects --- one of the latest campaigns that I conducted for Mondelēz was nominated for the best branded effect in 2021 in Eastern Europe by TikTok Awards.
+
+\lettersection{How about next steps?}
+I am excited to speak with you about how my skills in media planning can help Swatch. Let me know when would be a good time for an interview.
+
+\end{cvletter}
+
+
+%-------------------------------------------------------------------------------
+% Print the signature and enclosures with above letter informations
+\makeletterclosing
+
+\end{document}

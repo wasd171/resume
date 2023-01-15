@@ -1,0 +1,142 @@
+%!TEX TS-program = xelatex
+%!TEX encoding = UTF-8 Unicode
+% Awesome CV LaTeX Template for Cover Letter
+%
+% This template has been downloaded from:
+% https://github.com/posquit0/Awesome-CV
+%
+% Authors:
+% Claud D. Park <posquit0.bj@gmail.com>
+% Lars Richter <mail@ayeks.de>
+%
+% Template license:
+% CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/)
+%
+
+
+%-------------------------------------------------------------------------------
+% CONFIGURATIONS
+%-------------------------------------------------------------------------------
+% A4 paper size by default, use 'letterpaper' for US letter
+\documentclass[11pt, a4paper]{awesome-cv}
+
+% Configure page margins with geometry
+\geometry{left=1.4cm, top=.8cm, right=1.4cm, bottom=.8cm, footskip=.5cm}
+
+% Specify the location of the included fonts
+\fontdir[fonts/]
+
+% Color for highlights
+% Awesome Colors: awesome-emerald, awesome-skyblue, awesome-red, awesome-pink, awesome-orange
+%                 awesome-nephritis, awesome-concrete, awesome-darknight
+\colorlet{awesome}{black}
+% Uncomment if you would like to specify your own color
+% \definecolor{awesome}{HTML}{CA63A8}
+
+% Colors for text
+% Uncomment if you would like to specify your own color
+% \definecolor{darktext}{HTML}{414141}
+% \definecolor{text}{HTML}{333333}
+% \definecolor{graytext}{HTML}{5D5D5D}
+% \definecolor{lighttext}{HTML}{999999}
+
+% Set false if you don't want to highlight section with awesome color
+\setbool{acvSectionColorHighlight}{true}
+
+% If you would like to change the social information separator from a pipe (|) to something else
+\renewcommand{\acvHeaderSocialSep}{\quad\textbar\quad}
+
+
+%-------------------------------------------------------------------------------
+%	PERSONAL INFORMATION
+%	Comment any of the lines below if they are not required
+%-------------------------------------------------------------------------------
+% Available options: circle|rectangle,edge/noedge,left/right
+%\photo[circle,noedge,left]{./examples/profile}
+\name{Oksana}{Nesterova}
+%\position{Aspiring Media Researcher}
+\address{Dorfstrasse 21, 6390 Engelberg, Switzerland}
+
+%\mobile{+41 78 204 00 51}
+\email{oksana@nesterova.is}
+%\homepage{www.posquit0.com}
+%\github{posquit0}
+\linkedin{oksananesterova}
+% \gitlab{gitlab-id}
+% \stackoverflow{SO-id}{SO-name}
+% \twitter{@twit}
+% \skype{skype-id}
+% \reddit{reddit-id}
+% \extrainfo{Swiss B permit}
+
+%\quote{``Be the change that you want to see in the world."}
+
+
+%-------------------------------------------------------------------------------
+%	LETTER INFORMATION
+%	All of the below lines must be filled out
+%-------------------------------------------------------------------------------
+% The company being applied to
+\recipient
+  {Admissions Office}
+  {Zurich University of the Arts\\Pfingstweidstrasse 96\\8031 Zurich\\Switzerland}
+% The date on the letter, default is the date of compilation
+\letterdate{\today}
+% The title of the letter
+\lettertitle{Application for MA Design, Visual Communication}
+% How the letter is opened
+\letteropening{To Whom It May Concern,}
+% How the letter is closed
+\letterclosing{Sincerely,}
+% Any enclosures with the letter
+%\letterenclosure[Attached]{Curriculum Vitae}
+
+
+%-------------------------------------------------------------------------------
+\begin{document}
+
+% Print the header with above personal informations
+% Give optional argument to change alignment(C: center, L: left, R: right)
+\makecvheader[R]
+
+% Print the footer with 3 arguments(<left>, <center>, <right>)
+% Leave any of these blank if they are not needed
+%\makecvfooter
+%  {\today}
+%  {Oksana Nesterova~~~·~~~Cover Letter}
+%  {}
+
+
+% Print the title with above letter informations
+\makelettertitle
+
+%-------------------------------------------------------------------------------
+%	LETTER CONTENT
+%-------------------------------------------------------------------------------
+\begin{cvletter}
+
+\lettersection{About me}
+My global goal has always been to help people to communicate with each other. I am astonished by the reach and the power of modern visual communications that allow to transfer ideas rapidly among large audiences. This is why I want to learn about the fundamental processes occurring during design creation and interaction with various design forms. It is important for me to understand these processes well and to be able to use them to touch people's hearts, to be able to deliver messages the way they were intended to be delivered, and to overall bring us closer to the future of seamless communication.
+
+\lettersection{Experience}
+I have 4+ years of professional experience in advertising (media planning) with the largest international companies and brands in FMCG (Mars and Mondelēz) and financial services (Mastercard and Sberbank). Because of this I was able to collaborate with a lot of creative agencies and got exposure to a wide range of campaigns conducted across all kinds of media: digital, TV, radio, Out-of-Home, etc. Thanks to good relations with partners there was a possibility to create unique projects --- one of the latest campaigns I conducted was nominated for the best branded effect in 2021 in Eastern Europe by TikTok Awards.
+
+With this being said, I have also witnessed how unclear messages, pure focus on visual components, and reluctance to try new approaches were able to bring great ideas down. I believe that it is possible and necessary to do better: to express clear and well-targeted messages in the beautiful forms and shapes that they deserve.
+
+\lettersection{Why ZHdK?}
+Going to a graduate school is an important life choice. But after careful consideration I am fully convinced that ZHdK would be the best step on my way to the professional success for the following reasons:
+
+Firstly, I want to learn a lot. My work made me realise how important it is to be able to utilise various media channels and to be able to work with different content forms. In this sense ZHdK's multifaceted approach is just a perfect match for my further development.
+
+Secondly, I am really fascinated by the prospect of working on my thesis together with the best minds of Switzerland. It is obviously beneficial for my further career and it also makes me believe that results of my graduate work will not stay forgotten, but rather will turn into some real techniques helping people. And this feeling inspires me.
+
+I hope that my background, experience, and future goals correspond to the objectives of Zurich University of the Arts. As a student of Masters I will not only achieve a new professional level but also do my best to contribute to the research progress of ZHdK. As a Masters alumna, I think I will be able to create novel approaches that will improve existing ways to communicate ideas and lead to better interpersonal understanding.
+
+\end{cvletter}
+
+
+%-------------------------------------------------------------------------------
+% Print the signature and enclosures with above letter informations
+\makeletterclosing
+
+\end{document}
