@@ -281,6 +281,10 @@
 % Usage: \email{<email adress>}
 \newcommand*{\email}[1]{\def\@email{#1}}
 
+% Defines writer's Telegram (optional)
+% Usage: \telegram{<telegram username>}
+\newcommand*{\telegram}[1]{\def\@telegram{#1}}
+
 % Defines writer's homepage (optional)
 % Usage: \homepage{<url>}
 \newcommand*{\homepage}[1]{\def\@homepage{#1}}
@@ -471,6 +475,12 @@
         {%
           \ifbool{isstart}{\setbool{isstart}{false}}{\acvHeaderSocialSep}%
           \href{https://stackoverflow.com/users/\@stackoverflowid}{\faStackOverflow\acvHeaderIconSep\@stackoverflowname}%
+        }%
+      \ifthenelse{\isundefined{\@telegram}}%
+        {}%
+        {%
+          \ifbool{isstart}{\setbool{isstart}{false}}{\acvHeaderSocialSep}%
+          \href{https://t.me/\@telegram}{\faTelegram\acvHeaderIconSep\@telegram}%
         }%
       \ifthenelse{\isundefined{\@linkedin}}%
         {}%
