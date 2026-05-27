@@ -11,7 +11,9 @@
 ## Intermediate documents:
 *.dvi
 *-converted-to.*
-<<<<<<< HEAD
+
+## Build directory:
+.build/
 
 ### Editor ###
 ## Vim & Emacs temp files:
